@@ -10,7 +10,7 @@
 - MLOps (ML Operations) : emerging discipline (consists of tools & principles to support progress) <- used to be done manually <- LandingLens
 - **key: systematically ways to think about scoping, data, modeling and deployment, software tools**
 - Speech recoginition: one of the successes of Deep Learning (valuable production deployment system)
-#### Case study: speech reg
+## Case study: speech reg
 + **Scoping: Define project**
   - Key metrics: accuracy, latency
   - Estimate resources & timeline
@@ -22,7 +22,7 @@
   - Error analysis -> improve the data systematically, no need to collect more data
 + **Deployment:**
   - Design system for adult but then most teenagers use
-#### Challenges: statistical issue & software engine issue
+## Challenges: statistical issue & software engine issue
 - Data drift (X) : Lighting condition changes -> distribution of data changes
 - Concept drift (X->Y) : inflation -> price changes when size of house remains
 - Software engine issue:
@@ -31,8 +31,21 @@
   + Computer resources (CPU/GPU/memory) - not enough powerful GPU for deployment
   + latency (QPS)
   + logging
-  + secutiry & privacy (patient record highly sensitive) 
-  
+  + secutiry & privacy (patient record highly sensitive)
+## Common deployment cases:
+**1. New product**<br>
+**2. Automate/assist with manual task**<br>
+**3. Replace previous ML system**
+## Deployment modes:
+- **shadow mode:** ML system shadows human and runs in parallel
+- **canary mode:**
+  + (used in coal mine to spot gas leak) roll out to small fraction (5%) of traffic initially
+  + monitor system and ramp up traffic gradually -> spot problems early on
+- **blue green mode:** keep old and new model -> easy way to enable rollback
+- **Degree of automation:**
+Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) -> full automation
+
+    
 
 
 
