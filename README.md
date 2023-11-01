@@ -26,7 +26,12 @@
 - Data drift (X) : Lighting condition changes -> distribution of data changes
 - Concept drift (X->Y) : inflation -> price changes when size of house remains
 - Software engine issue:
-
+  + Realtime or batch
+  + Cloud (has more computing resource) or Edge (visual inspection in factory)
+  + Computer resources (CPU/GPU/memory) - not enough powerful GPU for deployment
+  + latency (QPS)
+  + logging
+  + secutiry & privacy (patient record highly sensitive) 
   
 
 
