@@ -77,7 +77,8 @@ Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) ->
 - Precision = TP / (TP + FP), Recall = TP / (TP + FN)
 - High recall > preicison
 ## Performance Auditing
-
+## Why data-centric AI development?
+- Most academic research - download a benchmark dataset and try to do well on that benchmark <- model-centric
 
 
 
