@@ -79,6 +79,16 @@ Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) ->
 ## Performance Auditing
 ## Why data-centric AI development?
 - Most academic research - download a benchmark dataset and try to do well on that benchmark <- model-centric
+## Data augmentation
+- Create realistic examples that the algorithm  does poorly but humans (baseline) do well -> good way to improve performance
+- Create realistic images or use photoshop to draw a stratch
+## Adding more data
+- For unstructured data, adding data rarely hurts accuracy
+- For structured data, hard to create more data -> add more features (maybe better than add more users)
+- Also, no baseline to compare
+- For unstructured data, deep learning is very good at identifying features
+## Experiment tracking
+- Should have a system to track past experiments
 
 
 
