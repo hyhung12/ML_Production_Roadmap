@@ -44,8 +44,41 @@
 - **blue green mode:** keep old and new model -> easy way to enable rollback
 - **Degree of automation:**
 Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) -> full automation
+# Modeling
+## Challenges when monitoring deployed ML system:
+- Use dashboard to track how system doing overtime
+- Set threshold for alarm
+- Okay to start with many metrics then gradually removes a few that not useful (combine input & output metrics)
+- Deployment also highly iterative process - does take a few tries -> Also need maintenance
+- Pipeline: may involve 2 or more learning algorithm
+  + user data has slower drift
+  + enterprise data(B2B app) can shift fast
+- Low avg error not always good -> skewed data distribution
+## Establish baseline (should do for long-term success)
+- May hire human to set HLP (Human Level Performance)
+- HLP less useful baseline for structured data
+- **Tips:**
+  + Find reasonable sources to get started, no need to search for latest algorithm
+  + **Reasonable algorithm with good data will oftern outperform a great algorithm with no so good data**
+## Error Analysis
+- Can be done manually
+![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/3ad8a493-e60b-408c-8dc8-aea8fcf347cc)
+## Prioritize what to work on
+- Work on 1% but huge % data -> more improvement on overall accuracy
+![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/194d01eb-5d3a-4d9b-8c2f-fcad0021ce68)
+- Choose categories to work on:
+  + How much room for improving
+  + How frequent that category appears
+  + How easy to improve accuracy
+  + How important to improve
+- Collect more data is good but time-consuming & expensive -> carry out analysis -> focus exact kind of data
+## Skewed dataset
+- Raw accuracy is not a good metrics (precision & recall)
+- Precision = TP / (TP + FP), Recall = TP / (TP + FN)
+- High recall > preicison
+## Performance Auditing
 
-    
+
 
 
 
