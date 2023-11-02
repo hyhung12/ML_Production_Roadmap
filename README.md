@@ -89,6 +89,10 @@ Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) ->
 - For unstructured data, deep learning is very good at identifying features
 ## Experiment tracking
 - Should have a system to track past experiments
+![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/27424fa2-5fc8-45df-a16c-ea6da49719e2)
+- Good data -> key to high performance and reliable ML deployment:
+  + Cover important cases
+  + Good distrbution (cover data and concept drift)
 
 
 
