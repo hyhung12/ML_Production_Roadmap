@@ -105,7 +105,22 @@ Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) ->
 - Can create ambiguous classes : clear, not clear and no clear
 - Use voting for many labelers
 - Lack of tools -> carry out process consistently & repeatedly
-
+## Label and organize data
+- Dont spend so many days just to collect data
+- Labeling data options: **In-house** & **Outsourced** & **Crowdsourced**
+- MLEs to label data -> expensive but can build intuition
+- May need experts to help labeling
+- No need to rapidly increase the data
+- **Should start with small dataset -> error analysis -> get intuition -> increase dataset**
+![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/42a2614d-686d-4c6b-9fe7-1fb843f68c6d)
+## Metadata (data of data/ side data)
+## Planing AI project (think carefully to create value)
+- 1/ Think about business prolbme
+- 2/ Think about AI solutions (not all problems can be solved with AI)<br>
+![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/4490936c-02b5-4f96-bf78-c16f2e9fb04d)
+- If a task is done well by human -> can plan an AI solution
+- If features are not predictive -> hard to create AI solution
+- 
 
 
 
