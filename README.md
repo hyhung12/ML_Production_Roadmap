@@ -93,7 +93,18 @@ Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) ->
 - Good data -> key to high performance and reliable ML deployment:
   + Cover important cases
   + Good distrbution (cover data and concept drift)
-
+## Data definition (labeling)
+- Inconsistent label (different bounding box style) or label ambiguity
+- Again, human are good at unstructured data
+- Small data (<10000) and big data (>10000)
+- Should have small teams to have same data definition
+## If small dataset then it should be clean and consistent
+- **Label consistency**<br>
+![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/d810ebc8-6736-4b58-b12c-2f819fdee200)
+- Merge classes -> get rid of inconsistencies
+- Can create ambiguous classes : clear, not clear and no clear
+- Use voting for many labelers
+- Lack of tools -> carry out process consistently & repeatedly
 
 
 
