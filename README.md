@@ -120,7 +120,17 @@ Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) ->
 ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/4490936c-02b5-4f96-bf78-c16f2e9fb04d)
 - If a task is done well by human -> can plan an AI solution
 - If features are not predictive -> hard to create AI solution
+![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/cf96ceee-7827-43f5-8ae5-0d952e318785)
+
+
+
+
+## Data - MLE in Production
+- Real-world data is dynamic and usually shifting
 - 
+![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/9f79c83f-695c-4f83-b2d6-818abf9c1b14)
+
+
 
 
 
