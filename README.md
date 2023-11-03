@@ -127,7 +127,9 @@ Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) ->
 
 ## Data - MLE in Production
 - Real-world data is dynamic and usually shifting
-- 
+- In ML: data is first-class citizen (data should have predictive content)
+- ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/a11f9832-9104-4613-96da-193d776ddab4)
+
 ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/9f79c83f-695c-4f83-b2d6-818abf9c1b14)
 
 
