@@ -1,3 +1,10 @@
+<p float="left">
+  <img src="https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/7f6eb620-f4dc-42a3-bb7b-78e13d3dd8c6" width="48%" />
+  <img src="https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/f90f0d01-7e37-4e9a-b598-146e5e7646d4" width="48%" />
+  <img src="https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/f90f0d01-7e37-4e9a-b598-146e5e7646d4" width="48%" />
+  <img src="https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/f90f0d01-7e37-4e9a-b598-146e5e7646d4" width="48%" />
+</p>
+
 ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/7f6eb620-f4dc-42a3-bb7b-78e13d3dd8c6)
 ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/f90f0d01-7e37-4e9a-b598-146e5e7646d4)
 - Deloying a system is just halfway
