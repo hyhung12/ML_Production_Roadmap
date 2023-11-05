@@ -1,24 +1,18 @@
 ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/8b4db2b6-a722-4898-91cb-fa8ca06d9b70)
+
 <p float="left">
   <img src="https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/7f6eb620-f4dc-42a3-bb7b-78e13d3dd8c6" width="48%" />
   <img src="https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/f90f0d01-7e37-4e9a-b598-146e5e7646d4" width="48%" />
-  <img src="https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/f90f0d01-7e37-4e9a-b598-146e5e7646d4" width="48%" />
-  <img src="https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/f90f0d01-7e37-4e9a-b598-146e5e7646d4" width="48%" />
+  <img src="https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/89081cde-b197-405b-95b4-91506b22235a" width="48%" />
+  <img src="https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/3e331342-8e0e-4df1-a279-59c3b0c45f29" width="48%" />
 </p>
 
-![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/7f6eb620-f4dc-42a3-bb7b-78e13d3dd8c6)
-![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/f90f0d01-7e37-4e9a-b598-146e5e7646d4)
 - Deloying a system is just halfway
 - Lighting conditions in factory can be changed compared to the time training set was collected
--> Concept drift or data drift
-![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/89081cde-b197-405b-95b4-91506b22235a)
-![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/3e331342-8e0e-4df1-a279-59c3b0c45f29)
--> Systematically plan out the full lifecycle of a ML project
-![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/2b037768-91fb-433d-ba95-d417e01626fd)
-- MLOps (ML Operations) : emerging discipline (consists of tools & principles to support progress) <- used to be done manually <- LandingLens
-- **key: systematically ways to think about scoping, data, modeling and deployment, software tools**
-- Speech recoginition: one of the successes of Deep Learning (valuable production deployment system)
-## Case study: speech reg
+- **Systematically plan out the full lifecycle of a ML project**
+- MLOps (ML Operations): consists of tools & principles to support progress <- used to be done manually <- LandingLens
+
+# Case study: speech reg
 + **Scoping: Define project**
   - Key metrics: accuracy, latency
   - Estimate resources & timeline
