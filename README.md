@@ -143,9 +143,16 @@ Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) ->
 - Scaling Infrastructure: Vertical (Have a bigger car), Horizontal (Lease more cars to less rely)
 - Container - convenient way to do horizontal scaling
 - ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/75366b49-8125-4a60-9982-1cd4390fa104)
-
-
-
+- Data in model -> pre-processing, data out -> post-processing
+- Batch data (csv file, log file) & Streaming data (data from sensors)
+- ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/fee30aa9-a21f-440c-89e4-2ae93e7394bf)
+- ML - experimental science (experimenting & analyzing - heart of ML development)
+- Notebooks are powerful tool but not good for production environment
+- Modular code, not monolithic -> production level experiment
+- Need tool for Data Versioning
+## Model Decay
+- Detected by observe statistical properties of logged data or using dashboard
+- If it happens, can start over or fine tune
 
 
 
