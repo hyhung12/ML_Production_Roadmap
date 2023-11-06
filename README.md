@@ -13,16 +13,16 @@
 - MLOps (ML Operations): consists of tools & principles to support progress <- used to be done manually <- LandingLens
 
 # Case study: speech reg
-+ **Scoping: Define project**
++ **Scoping stage: Define project**
   - Key metrics: accuracy, latency
   - Estimate resources & timeline
-+ **Data:**
++ **Data stage:**
   - Is data labeled consistently
   - Train or test set can be edited to improve the production system
-+ **Model: train & perform data analysis**
++ **Modeling stage: train & perform data analysis**
   - In production, data > model
   - Error analysis -> improve the data systematically, no need to collect more data
-+ **Deployment:**
++ **Deployment stage:**
   - Design system for adult but then most teenagers use
 ## Challenges: statistical issue & software engine issue
 - Data drift (X) : Lighting condition changes -> distribution of data changes
