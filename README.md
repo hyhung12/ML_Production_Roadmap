@@ -54,9 +54,8 @@
 
 # Modeling
 ## Challenges when monitoring deployed ML system
-- Use dashboard to track how system doing overtime
-- Set threshold for alarm
-- Okay to start with many metrics then gradually removes a few that not useful (combine input & output metrics)
+- Use dashboard to track system or set threshold for alarm
+- **Okay to start with many metrics then gradually removes a few that not useful (combine input & output metrics)**
 - Deployment also highly iterative process - does take a few tries -> Also need maintenance
 - Pipeline: may involve 2 or more learning algorithms
   + user data has slower drift
@@ -64,7 +63,7 @@
 - Low average error not always good -> skewed data distribution
 ## Establish baseline (should do for long-term success)
 - May hire human to set HLP (Human Level Performance)
-- HLP less useful baseline for structured data
+- HLP less useful baseline for structured data like excel table
 - **Tips:**
   + Find reasonable sources to get started, no need to search for latest algorithm
   + **Reasonable algorithm with good data will oftern outperform a great algorithm with no so good data**
@@ -85,11 +84,13 @@
 - Raw accuracy is not a good metrics (precision & recall)
 - Precision = TP / (TP + FP), Recall = TP / (TP + FN)
 - High recall > preicison
-## Performance Auditing
+## Performance Auditing (brainstorm the ways system might go wrong)
 ## Why data-centric AI development?
-- Most academic research - download a benchmark dataset and try to do well on that benchmark <- model-centric
+- Academic research - download a benchmark dataset and try to do well on that benchmark <- model-centric
+- Consistency of data (data quality) is paramount
+- Hold the code fixed and iteratively improve the data
 ## Data augmentation
-- Create realistic examples that the algorithm  does poorly but humans (baseline) do well -> good way to improve performance
+- Create realistic examples that the algorithm does poorly but human (baseline) do well -> good way to improve performance
 - Create realistic images or use photoshop to draw a stratch
 ## Adding more data
 - For unstructured data, adding data rarely hurts accuracy
@@ -107,8 +108,8 @@
 # Data    
 ## Data definition (labeling)
 - Inconsistent label (different bounding box style) or label ambiguity
-- Again, human are good at unstructured data
-- Small data (<10000) and big data (>10000)
+- **Humans are good at unstructured data**
+- Small data (<10,000) and big data (>10,000)
 - Should have small teams to have same data definition
 ## If small dataset then it should be clean and consistent
 - **Label consistency**<br>
@@ -125,9 +126,9 @@
 - No need to rapidly increase the data
 - **Should start with small dataset -> error analysis -> get intuition -> increase dataset**\
 ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/42a2614d-686d-4c6b-9fe7-1fb843f68c6d)
-## Metadata (data of data/ side data)
+## Metadata (data of data/ side data): time, factory, line #, camera settings, ...
 ## Planing AI project (think carefully to create value)
-- 1/ Think about business prolbme
+- 1/ Think about business problem
 - 2/ Think about AI solutions (not all problems can be solved with AI)<br>
 ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/4490936c-02b5-4f96-bf78-c16f2e9fb04d)
 - If a task is done well by human -> can plan an AI solution
