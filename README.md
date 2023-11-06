@@ -20,7 +20,7 @@
   - Is data labeled consistently
   - Train or test set can be edited to improve the production system
 + **Modeling stage: train & perform data analysis**
-  - In production, data > model
+  - In production: data > model
   - Error analysis -> improve the data systematically, no need to collect more data
 + **Deployment stage:**
   - Design system for adult but then most teenagers use
@@ -29,43 +29,50 @@
 - Concept drift (X->Y) : inflation -> price changes when size of house remains
 - Software engine issue:
   + Realtime or batch
-  + Cloud (has more computing resource) or Edge (visual inspection in factory)
+  + **Cloud** (has more computing resource) or **Edge** (visual inspection in factory)
   + Computer resources (CPU/GPU/memory) - not enough powerful GPU for deployment
   + latency (QPS)
   + logging
-  + secutiry & privacy (patient record highly sensitive)
+  + security & privacy (patient record highly sensitive)
+<br>
+
+# Deployment
 ## Common deployment cases:
 **1. New product**<br>
 **2. Automate/assist with manual task**<br>
 **3. Replace previous ML system**
+
 ## Deployment modes:
 - **shadow mode:** ML system shadows human and runs in parallel
 - **canary mode:**
   + (used in coal mine to spot gas leak) roll out to small fraction (5%) of traffic initially
   + monitor system and ramp up traffic gradually -> spot problems early on
 - **blue green mode:** keep old and new model -> easy way to enable rollback
-- **Degree of automation:**
-Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) -> full automation
+- **Degree of automation:**\
+![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/1fc3e814-e937-4766-a334-0112f0da4a6b)
+<br>
+
 # Modeling
-## Challenges when monitoring deployed ML system:
+## Challenges when monitoring deployed ML system
 - Use dashboard to track how system doing overtime
 - Set threshold for alarm
 - Okay to start with many metrics then gradually removes a few that not useful (combine input & output metrics)
 - Deployment also highly iterative process - does take a few tries -> Also need maintenance
-- Pipeline: may involve 2 or more learning algorithm
+- Pipeline: may involve 2 or more learning algorithms
   + user data has slower drift
-  + enterprise data(B2B app) can shift fast
-- Low avg error not always good -> skewed data distribution
+  + enterprise data (B2B app) can shift fast
+- Low average error not always good -> skewed data distribution
 ## Establish baseline (should do for long-term success)
 - May hire human to set HLP (Human Level Performance)
 - HLP less useful baseline for structured data
 - **Tips:**
   + Find reasonable sources to get started, no need to search for latest algorithm
   + **Reasonable algorithm with good data will oftern outperform a great algorithm with no so good data**
+  
 ## Error Analysis
 - Can be done manually
 ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/3ad8a493-e60b-408c-8dc8-aea8fcf347cc)
-## Prioritize what to work on
+## Prioritize what to improve
 - Work on 1% but huge % data -> more improvement on overall accuracy
 ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/194d01eb-5d3a-4d9b-8c2f-fcad0021ce68)
 - Choose categories to work on:
@@ -95,6 +102,9 @@ Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) ->
 - Good data -> key to high performance and reliable ML deployment:
   + Cover important cases
   + Good distrbution (cover data and concept drift)
+<br>
+
+# Data    
 ## Data definition (labeling)
 - Inconsistent label (different bounding box style) or label ambiguity
 - Again, human are good at unstructured data
@@ -127,34 +137,6 @@ Human only -> Shadow mode -> AI assistance -> partial automation (maybe good) ->
 
 
 
-## Data - MLE in Production
-- Real-world data is dynamic and usually shifting
-- In ML: data is first-class citizen (data should have predictive content)
-- ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/a11f9832-9104-4613-96da-193d776ddab4)
-
-![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/9f79c83f-695c-4f83-b2d6-818abf9c1b14)
-- The world changes so does the data
-- Camera are moved
-## Model Serving
-- Challenge: tradeoff between model's predictability & speed of latency
-- ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/d0ed3e26-e044-4599-b665-6fb1c9d270ea)
-- Caching: GGC Memorystore, AWS DynamoDB
-- 2 environments to deploy: edge devices (memory constraint) & cloud (REST API) but not good for app that prediction latency is important
-- gRPC maybe better than REST
-- ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/59be1dba-e36a-4e2b-9502-b68833c0d0d0)
-- Scaling Infrastructure: Vertical (Have a bigger car), Horizontal (Lease more cars to less rely)
-- Container - convenient way to do horizontal scaling
-- ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/75366b49-8125-4a60-9982-1cd4390fa104)
-- Data in model -> pre-processing, data out -> post-processing
-- Batch data (csv file, log file) & Streaming data (data from sensors)
-- ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/fee30aa9-a21f-440c-89e4-2ae93e7394bf)
-- ML - experimental science (experimenting & analyzing - heart of ML development)
-- Notebooks are powerful tool but not good for production environment
-- Modular code, not monolithic -> production level experiment
-- Need tool for Data Versioning
-## Model Decay
-- Detected by observe statistical properties of logged data or using dashboard
-- If it happens, can start over or fine tune
 
 
 
