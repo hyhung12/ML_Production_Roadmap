@@ -56,7 +56,7 @@
 ## Challenges when monitoring deployed ML system
 - Use dashboard to track system or set threshold for alarm
 - **Okay to start with many metrics then gradually removes a few that not useful (combine input & output metrics)**
-- Deployment also highly iterative process - does take a few tries -> Also need maintenance
+- Deployment also **highly iterative process** - does take a few tries -> Also need maintenance
 - Pipeline: may involve 2 or more learning algorithms
   + user data has slower drift
   + enterprise data (B2B app) can shift fast
