@@ -126,7 +126,7 @@
 - No need to rapidly increase the data
 - **Should start with small dataset -> error analysis -> get intuition -> increase dataset**\
 ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/42a2614d-686d-4c6b-9fe7-1fb843f68c6d)
-## Metadata (data of data/ side data): time, factory, line #, camera settings, ...
+**Metadata (data of data/ side data): time, factory, line #, camera settings, ...**
 ## Planing AI project (think carefully to create value)
 - Think about business problem
 - Think about AI solutions (not all problems can be solved with AI)
