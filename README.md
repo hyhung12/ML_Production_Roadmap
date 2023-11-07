@@ -128,8 +128,9 @@
 ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/42a2614d-686d-4c6b-9fe7-1fb843f68c6d)
 ## Metadata (data of data/ side data): time, factory, line #, camera settings, ...
 ## Planing AI project (think carefully to create value)
-- 1/ Think about business problem
-- 2/ Think about AI solutions (not all problems can be solved with AI)<br>
-![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/4490936c-02b5-4f96-bf78-c16f2e9fb04d)
+- Think about business problem
+- Think about AI solutions (not all problems can be solved with AI)
 - If a task is done well by human -> can plan an AI solution
-- If features are not predictive -> hard to create AI solution
+- If features are not predictive -> hard to create AI solution<br>
+![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/4490936c-02b5-4f96-bf78-c16f2e9fb04d)
+
