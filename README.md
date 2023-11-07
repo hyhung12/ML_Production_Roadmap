@@ -131,6 +131,6 @@
 - Think about business problem
 - Think about AI solutions (not all problems can be solved with AI)
 - If a task is done well by human -> can plan an AI solution
-- If features are not predictive -> hard to create AI solution<br>
+- If features are not predictive -> hard to create AI solution\
 ![image](https://github.com/hyhung12/ML_Production_Roadmap/assets/97202476/4490936c-02b5-4f96-bf78-c16f2e9fb04d)
 
